@@ -64,4 +64,6 @@ __Models Assessed:__
  * Neural Network: Multi-Layer Perceptron
  * Deep Learning: Keras Regression
 
+__Features of Importance__
+
 ![](./readme/melanoma_rf_feature_importance.png)
