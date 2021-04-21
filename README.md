@@ -13,19 +13,21 @@ Source: https://www.kaggle.com/anmolkumar/machine-hack-melanoma-tumor-size-predi
 [Exploratory Data Analysis Report](https://github.com/Michael-J-Son/Melanoma_Capstone/blob/main/exploratory_data_analysis/Melanoma_EDA.ipynb)
 
 ## IV. Modeling
-[Modeling Report]()
+[Modeling Report](https://github.com/Michael-J-Son/Melanoma_Capstone/blob/main/modeling/Melanoma_Modeling.ipynb)
 
-__1) Train Test Split__
+__1) Train Validation Split__
 
 __2) Standardize Features__
  * Standardized features using StandardScaler
 
 __3) Model Evaluation__
- * Hyperparameter tuning with Grid Search
- * R2 and mean absolute error as evaluation metrics
+ * Hyperparameter tuning with Randomized Search
+ * R2 and mean squared error as evaluation metrics
+ * Performance of the two highest-performing models (Random Forest, Keras Regression) assessed using a separate test dataset
 
-__Models Tested:__
+__Models Assessed:__
  * Multiple Linear Regression
  * Random Forest
  * Support Vector Machine
- * Deep Learning
+ * Neural Network: Multi-Layer Perceptron
+ * Deep Learning: Keras Regression
