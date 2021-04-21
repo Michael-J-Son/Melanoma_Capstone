@@ -24,8 +24,8 @@ __List of Features with Descriptions__
  * tumor_size: size of melanoma tumor
 
 __Initial Data Exploration__
- * Training Dataset: 9146 entries, 10 columns
- * Target Feature: tumor_size
+ * Training dataset: 9146 entries, 10 columns
+ * Target feature: tumor_size
  * Most correlations between features are due to the inherent proportionality between mass and volume
  * Majority of data points correspond to small tumor sizes
  * Malignancy is prevalent in the current training dataset despite the overwhelming majority of tumor samples being small
@@ -54,7 +54,8 @@ __2) Standardize Features__
 __3) Model Evaluation__
  * Hyperparameter tuning with Randomized Search
  * R2 and mean squared error as evaluation metrics
- * Performance of the two highest-performing models (Random Forest, Keras Regression) assessed using a separate test dataset
+ * Performance of the two highest-performing models (Random Forest, Keras Regression) further assessed using a separate test dataset
+ * Test dataset: 36584 entries, 10 columns
  * Best model: Random Forest, based on the performance evaluation in this project
 
 __Models Assessed:__
