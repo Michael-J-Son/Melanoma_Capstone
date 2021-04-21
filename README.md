@@ -12,24 +12,24 @@ Training Dataset + Test Dataset
 [Data Wrangling Report](https://github.com/Michael-J-Son/Melanoma_Capstone/blob/main/data_wrangling/Melanoma_Data_Wrangling.ipynb)
 
 __List of Features with Descriptions__
- * mass_npea: the mass of the area under under study for melanoma tumor
- * size_npear: the size of the area under study for melanoma tumor
- * malign_ratio: the ratio of normal to malign surface under study
- * damage_size: irrecoverable area of skin damaged by the tumor
- * exposed area: total area exposed to the tumor
- * stddevmalign: standard deviation of malign skin measurements
- * err_malign: error in malign skin measurements
- * malign_penalty: penalty imposed due to measurement error in the lab
- * damage_ratio: the ratio of damage to total spread on the skin
- * tumor_size: size of melanoma tumor
+ * mass_npea: the mass of the area under under study for melanoma tumor.
+ * size_npear: the size of the area under study for melanoma tumor.
+ * malign_ratio: the ratio of normal to malign surface under study.
+ * damage_size: irrecoverable area of skin damaged by the tumor.
+ * exposed area: total area exposed to the tumor.
+ * stddevmalign: standard deviation of malign skin measurements.
+ * err_malign: error in malign skin measurements.
+ * malign_penalty: penalty imposed due to measurement error in the lab.
+ * damage_ratio: the ratio of damage to total spread on the skin.
+ * tumor_size: size of melanoma tumor.
 
 __Initial Data Exploration__
  * Training dataset: 9146 entries, 10 columns
  * Target feature: tumor_size
- * Most correlations between features are due to the inherent proportionality between mass and volume
- * Majority of data points correspond to small tumor sizes
- * Malignancy is prevalent in the current training dataset despite the overwhelming majority of tumor samples being small
- * The left-skewed distributionof damage ratios supports the findings on malignancy
+ * Most correlations between features are due to the inherent proportionality between mass and volume.
+ * Majority of data points correspond to small tumor sizes.
+ * Malignancy is prevalent in the current training dataset despite the overwhelming majority of tumor samples being small.
+ * The left-skewed distributionof damage ratios supports the findings on malignancy.
 
 ## III. Exploratory Data Analysis
 [Exploratory Data Analysis Report](https://github.com/Michael-J-Son/Melanoma_Capstone/blob/main/exploratory_data_analysis/Melanoma_EDA.ipynb)
@@ -46,17 +46,17 @@ __Noteworthy Tumor Size Correlations__
 ## IV. Modeling
 [Modeling Report](https://github.com/Michael-J-Son/Melanoma_Capstone/blob/main/modeling/Melanoma_Modeling.ipynb)
 
-__1) Train Validation Split__
+__1) Training Validation Split__
 
-__2) Standardize Features__
- * Standardized features using StandardScaler
+__2) Standardization of Features__
+ * Standardized features using StandardScaler.
 
 __3) Model Evaluation__
- * Hyperparameter tuning with Randomized Search
- * R2 and mean squared error as evaluation metrics
- * Performance of the two highest-performing models (Random Forest, Keras Regression) further assessed using a separate test dataset
+ * Hyperparameter tuning with Randomized Search.
+ * R2 and mean squared error as evaluation metrics.
+ * Performance of the two highest-performing models (Random Forest, Keras Regression) further assessed using a separate test dataset.
  * Test dataset: 36584 entries, 10 columns
- * Best model: Random Forest, based on the performance evaluation in this project
+ * Best model: Random Forest, based on the performance evaluation in this project.
 
 __Models Assessed:__
  * Multiple Linear Regression
